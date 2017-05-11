@@ -447,7 +447,7 @@ function session(options){
  */
 
 function generateSessionId(sess) {
-    return uid(24);
+    return uid(128);
 }
 
 /**
